@@ -1,0 +1,197 @@
+body {
+  font-family: Arial, serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10px;
+  height: 31px;
+  background-color: rgb(239, 239, 239);
+  border-bottom: 1px solid grey;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+/*NAV MENU*/
+nav {
+  position: absolute;
+  top: 6px;
+  left: 37%;
+  width: 26%;
+  height: 33px;
+  border: 2px solid rgba(0, 0, 0, 0.65);
+  border-radius: 5px;
+}
+
+nav button {
+  margin-right: -5px;
+  padding: 4px 5px 4px 5px;
+  height: 100%;
+  color: inherit;
+  border: none;
+  border-left: 1px solid grey;
+  font: inherit;
+  cursor: pointer;
+  font-size: 100%;
+}
+
+/* EINZELNE BUTTONS*/
+#htmlButton {
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: 25%;
+  background-color: rgba(17, 114, 181, 0.50);
+}
+
+#htmlButton:hover {
+  background-color: rgba(17, 114, 181, 0.40);
+}
+
+#cssButton {
+  width: 20%;
+}
+
+#cssButton:hover {
+  background-color: rgba(232, 79, 27, 0.40);
+}
+
+#cssSection {
+  display: none;
+}
+
+#jsButton {
+  width: 21%;
+}
+
+#jsButton:hover {
+  background-color: rgba(250, 177, 49, 0.40);
+}
+
+#jsSection {
+  display: none;
+}
+
+#resultButton {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  width: 34.8%;
+  background-color: rgba(128, 128, 128, 0.50);
+}
+
+
+#resultButton:hover {
+  background-color: rgba(128, 128, 128, 0.40);
+}
+
+/* RUN BUTTON*/
+#runButton {
+  position: absolute;
+  top: 8px;
+  right: 5%;
+  height: 33px;
+  width: 45px;
+  border-radius: 6px;
+  background-color: rgba(27, 128, 5, 0.48);
+  border: 2px outset rgb(46, 121, 39);
+}
+
+.ui-icon-play {
+  transform: scale(1.5);
+}
+
+#runButton:hover {
+  background-color: rgba(27, 128, 5, 0.38);
+}
+
+#runButton:active {
+  background-color: rgba(27, 128, 5, 0.50);
+  border: 2px outset rgb(76, 107, 51);
+}
+
+/*BODY SECTIONS*/
+#sectionsBody {
+  height: 850px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  position: relative;
+  float: left;
+  width: 25.8%;
+  height: 100%;
+  border-right: 1px solid grey;
+}
+
+#resultSection {
+  border-right: none;
+}
+
+section button {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+#htmlTitle {
+  background-color: rgba(17, 114, 181, 0.50);
+}
+
+#cssTitle {
+  background-color: rgba(232, 79, 27, 0.50);
+}
+
+#jsTitle {
+  background-color: rgba(250, 177, 49, 0.50);
+}
+
+#resultTitle {
+  background-color: rgb(185, 185, 185);
+}
+
+.bigButton {
+  left: 15px;
+}
+
+textarea {
+  margin: 0;
+  padding-top: 10px;
+  width: 100%;
+  height: 98%;
+  word-wrap: break-word; /* Zeilenumbruch, wenn der Text das Ende erreicht*/
+  border: none;
+  resize: none;
+  box-sizing: border-box; /*div wird durch padding/margin nicht vergrößert */ /*sehr wichtig für responsiv!*/
+
+}
+
+textarea:focus {
+  border: 1px solid #9d2e2e;
+  border-radius: 3px;
+}
+
+.paddingTextarea {
+  padding-top: 45px;
+}
+
+
+#resultText {
+  padding: 0 0 3px 3px;
+}
+
+.resultTextSmallScreen {
+  margin-top: 40px;
+}
+
+
+
+
+
